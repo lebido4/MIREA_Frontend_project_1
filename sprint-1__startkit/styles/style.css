@@ -15,6 +15,8 @@
   max-height: 756px;
   position: relative;
   display: flex;
+  background-color: #f2f2f2;
+  z-index: -2;
 }
 
 .logo {
@@ -166,6 +168,46 @@
   font-size: 18px;
   font-weight: normal;
 }
+
+.feynman {
+  height: 890px;
+  position: relative;
+  background-color: #f2f2f2;
+  z-index: -2;
+  background-image: url(../images/feynman.png);
+  background-repeat: no-repeat;
+  background-position: left bottom;
+}
+
+.feynman__title {
+  padding-top: 100px;
+  margin: 0 auto 0;
+  width: 648px;
+  line-height: 1.15;
+  font-size: 120px;
+  font-weight: 600;
+  text-align: center;
+}
+
+.feynman__subtitle {
+  margin-top: 70px;
+  line-height: 51px;
+  font-size: 36px;
+  font-weight: normal;
+  text-align: center;
+}
+
+.feynman__link {
+  position: absolute;
+  right: 48px;
+  top: 50%;
+  color:#2f80ed;
+  line-height: 51px;
+  font-size: 36px;
+  font-weight: normal;
+  text-decoration: none;
+}
+
 
 /* ниже мы привели пример двух селекторов, чтобы вы вспомнили запись элемента */
 .header__square-pic {
