@@ -125,9 +125,13 @@
   font-weight: 600;
 }
 
+.digits {
+  padding-bottom: 100px;
+}
+
 .section-title {
   width: 60%;
-  margin: 100px auto 0;
+  margin: 0 auto 0;
   text-align: center;
   line-height: 1.15;
   font-size: 60px;
@@ -208,11 +212,17 @@
   text-decoration: none;
 }
 
+.kaufman {
+  background-color: #1f1f1f;
+  z-index: -2;
+  overflow: hidden;
+  padding-top: 90px;
+  position: relative;
+  color:white;
+}
 
-/* ниже мы привели пример двух селекторов, чтобы вы вспомнили запись элемента */
-.header__square-pic {
-  height: 568px;
-  width: 568px;
+.table_theme_dark {
+  margin-bottom: 90px;
 }
 
 /* и элемента с модификатором вида ключ-значение */
@@ -221,4 +231,13 @@
   color: white;
   margin-right: 0;
   margin-top: 80px;
+}
+
+.kaufman__triangle {
+  position: absolute;
+  right: -210px;
+  top: 0;
+  z-index: -1;
+  width: 877px;
+  height: 877px;
 }
